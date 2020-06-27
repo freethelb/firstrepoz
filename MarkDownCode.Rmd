@@ -30,3 +30,21 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Using the KNN model to Predict Consumer Behavior
+
+```{r}
+#load data and work
+library(ISLR)
+str(Caravan)
+summary(Caravan$Purchase)
+any(is.na(Caravan))
+
+
+
+
+```
+
+
+
+
